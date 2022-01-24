@@ -1,7 +1,5 @@
 import React from 'react';
-import logo from '../logo.svg'
 import '../App.css';
-import ResponsiveAppBar from '../Components/ResponsiveAppBar';
 import BasicAppBar from '../Components/BasicAppBar'
 
 const Home = () => {
