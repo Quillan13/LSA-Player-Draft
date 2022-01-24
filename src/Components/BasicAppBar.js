@@ -12,7 +12,7 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-        <img src={Logo} height={200} width={400} left/>
+        <img src={Logo} alt="Logo" height={200} width={400} left/>
 
           {/* <IconButton
             size="large"
