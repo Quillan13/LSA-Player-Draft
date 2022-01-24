@@ -44,6 +44,9 @@ jobs:
       run: |
         npm install
 
+    - name: 'Tar files'
+    run: tar -cvf my_files.tar /LSA-Player-Draft/
+
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
       with:
