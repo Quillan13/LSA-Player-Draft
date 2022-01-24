@@ -4,9 +4,6 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import Page2 from '../Pages/Page2'
 import Logo from '../LSA_logo.png'
 
 
@@ -15,7 +12,7 @@ export default function ButtonAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-        <img src={Logo} alt="Logo Image" height={200} width={400} left/>
+        <img src={Logo} height={200} width={400} left/>
 
           {/* <IconButton
             size="large"
