@@ -1,3 +1,14 @@
+Website for LSA (Local Softball Association)
+
+url: https://lsa-site.azurewebsites.net
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
