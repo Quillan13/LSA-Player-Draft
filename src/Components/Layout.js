@@ -1,16 +1,23 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Box from '@material-ui/core/Box';
+import Toolbar from '@material-ui/core/Toolbar';
+import Container from '@material-ui/core/Container';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import BasicAppBar from './BasicAppBar'
+
 const Layout = ({children}) => {
     return (
-        <>
-            <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/page2'>Page 2</Link>
-            </nav>
-            <main>
-                {children}
-            </main>
-        </>
+        <Box>
+            <CssBaseline/>
+            <BasicAppBar/>
+            <Box flexGrow={1}>
+                <Toolbar />
+                <Container className="container" component="main" maxWidth="x1">
+                    {children}
+                </Container>
+            </Box>
+        </Box>
+
     )
 }
 export default Layout
