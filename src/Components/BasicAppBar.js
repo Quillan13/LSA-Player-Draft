@@ -27,8 +27,8 @@ export default function ButtonAppBar() {
             Local Softball Association
           </Typography>
           <Button color="inherit" href="/page2">Tournaments</Button>
+          <Button color="inherit" href="/rules">Rules</Button>
           <Button color="inherit" href="/page2">About</Button>
-          <Button color="inherit" href="/page2">Page 2</Button>
         </Toolbar>
       </AppBar>
     </Box>
