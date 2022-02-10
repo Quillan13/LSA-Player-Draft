@@ -1,0 +1,13 @@
+{
+  "clean-css.level": 2,
+  "postcssSorting.config": {
+    "properties-order": "alphabetical"
+  },
+  "css.validate": true,
+  "less.validate": true,
+  "scss.validate": true,
+  "stylelint.validate": ["css", "scss"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": false
+  }
+}

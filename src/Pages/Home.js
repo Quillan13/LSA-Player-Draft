@@ -1,14 +1,13 @@
-import React from 'react';
-import '../App.scss';
+import React from "react";
+import "../App.css";
 
 const Home = () => {
-
-	return (
+  return (
     <>
-    <div>Stuff Goes Here</div>
-    <div> and more stuff here</div>
-  </>
-	);
+      <div>Stuff Goes Here</div>
+      <div> and more stuff here</div>
+    </>
+  );
 };
 
 export default Home;
