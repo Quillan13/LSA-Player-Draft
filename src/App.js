@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Home from './Pages/Home'
 import Page2 from './Pages/Page2'
 import {
@@ -13,7 +13,7 @@ import Layout from './Components/Layout';
 function App() {
   return (
 
-<> 
+<>
   <Router>
     <Layout>
     <Switch>
@@ -22,13 +22,13 @@ function App() {
       </Route>
       <Route path="/page2">
         <Page2 />
-      </Route> 
+      </Route>
       <Route path="/rules">
         <Rules/>
       </Route>
-    </Switch> 
+    </Switch>
     </Layout>
-  </Router>    
+  </Router>
 </>
 
   );
