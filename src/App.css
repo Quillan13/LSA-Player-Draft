@@ -1,15 +1,18 @@
 .App {
   text-align: center;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: 20s linear infinite App-logo-spin;
   }
 }
+
 .App-header {
   align-items: center;
   background-color: #282c34;
@@ -20,9 +23,11 @@
   justify-content: center;
   min-height: 75vh;
 }
+
 .App-link {
   color: #61dafb;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0);
